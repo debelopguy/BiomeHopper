@@ -1,6 +1,6 @@
 #BIOME HOPPER 3000!!!!!
 
-import requests,webbrowser,json,pyautogui,time,datetime,subprocess,os,keyboard
+import requests,webbrowser,json,pyautogui,time,datetime,subprocess,os,keyboard,sys
 from PIL import Image
 
 settings = None
@@ -41,7 +41,7 @@ def finishfunc(key):
         "content":"## PRESSED STOP KEY ("+(settings["keytopause"]).upper()+") STOPPING NOW",
     }
     sendbywebhook(data)
-    exit()# stops the script
+    sys.exit()# stops the script
 
 keyboard.on_press_key(settings["keytopause"],finishfunc)
 def unbreakablehumanspirit():
