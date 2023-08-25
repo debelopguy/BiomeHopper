@@ -1,12 +1,10 @@
 INSTRUCTIONS FOR BCWO MACRO
 
 before opening the main BIOME HOPPER 3000 file:
-1. install python if you dont already have it
-2. run the "dependencies.bat" to install missing dependencies the script will require
-3. SET YOUR RESOLUTION TO 1600x900, OR ELSE IT WONT FIND BIOMES PROPERLY!
-4. if your default browser saves tabs upon closing, set it in settings to not do that,
+1. SET YOUR RESOLUTION TO 1600x900, OR ELSE IT WONT FIND BIOMES PROPERLY!
+2. if your default browser saves tabs upon closing, set it in settings to not do that,
 because the macro will keep opening the vip link and may or may not eat your ram
-5. open settings.txt. and read the following:
+3. open settings.json. and read the following:
 
 * webhook [RECOMMENDED]: set that as your webhook link. if kept as "None" there will be no
 webhook notifications.
@@ -28,4 +26,8 @@ default is 1.
 * keytopause: set that to a key you'd like to press to stop the script manually before
 finding a rare biome. default is "p". stick to regular keys, otherwise it might break
 
-after settings.txt is fully setup, you're free to open the file :)
+* strugglemessage: set that to the message you want to display upon skipping.
+
+* struggleattachment: set that to the link of an image you want to display upon skipping.
+
+after settings.json is fully setup, you're free to open the file :)
