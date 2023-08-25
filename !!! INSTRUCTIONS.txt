@@ -1,0 +1,31 @@
+INSTRUCTIONS FOR BCWO MACRO
+
+before opening the main BIOME HOPPER 3000 file:
+1. install python if you dont already have it
+2. run the "dependencies.bat" to install missing dependencies the script will require
+3. SET YOUR RESOLUTION TO 1600x900, OR ELSE IT WONT FIND BIOMES PROPERLY!
+4. if your default browser saves tabs upon closing, set it in settings to not do that,
+because the macro will keep opening the vip link and may or may not eat your ram
+5. open settings.txt. and read the following:
+
+* webhook [RECOMMENDED]: set that as your webhook link. if kept as "None" there will be no
+webhook notifications.
+
+* vip [REQUIRED]: set that as your roblox vip server link. HAS TO BE FILLED IN OBVIOUSLY!!!
+
+* waitbeforerejoin: set to a number between 20 and 120. lower or higher will
+default to 20/120. default is 60 and is recommended you keep it that way
+
+* browsertoclose [REQUIRED]: set that as your default browser exe name. chrome is "chrome",
+firefox is "firefox", opera gx is "opera". if you dont see your browser here go to task
+manager, find the browser process and its name and insert it in here.
+
+* whichslottoequip: set that to 1-4, that'll be the slot of the weapon your character
+will equip and use (m1, z,x,c) after zooming out. its recommended to not use ANY items
+that may obstruct the camera's view to locate the biome (e.g sunshine grimoire, tlitw etc)
+default is 1.
+
+* keytopause: set that to a key you'd like to press to stop the script manually before
+finding a rare biome. default is "p". stick to regular keys, otherwise it might break
+
+after settings.txt is fully setup, you're free to open the file :)

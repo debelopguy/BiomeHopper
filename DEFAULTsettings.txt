@@ -1,0 +1,8 @@
+{
+"webhook":"None",
+"vip":"https://www.example.com",
+"waitbeforerejoin":60,
+"browsertoclose":"firefox",
+"whichslottoequip":1,
+"keytopause":"p"
+}
