@@ -41,7 +41,7 @@ def finishfunc(key):
         "content":"## PRESSED STOP KEY ("+(settings["keytopause"]).upper()+") STOPPING NOW",
     }
     sendbywebhook(data)
-    raise Exception("nuh uh")
+    exit()# stops the script
 
 keyboard.on_press_key(settings["keytopause"],finishfunc)
 def unbreakablehumanspirit():
