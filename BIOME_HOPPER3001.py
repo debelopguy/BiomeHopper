@@ -74,7 +74,11 @@ def unbreakablehumanspirit():
         }
         sendbywebhook(data)
         os.remove("tempscreen.png")
-        keyboard.press_and_release("esc, r, enter")
+        keyboard.press_and_release("esc")
+        time.sleep(.1)
+        keyboard.press_and_release("r")
+        time.sleep(.1)
+        keyboard.press_and_release("enter")
         #click once to focus in the window and then zoomout
         data = {
         "content":"* focusing into roblox.",
