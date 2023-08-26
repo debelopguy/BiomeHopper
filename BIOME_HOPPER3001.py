@@ -35,7 +35,7 @@ skippablebosses={"paladin","fallen","machine","archmage","controller","steve","r
 worthskipping = {#793,81 ; 795,328
 "blizzard","flame","forest","irradiated","moon","pvc","star","storm","DIDNT_LOAD"
 }
-rarebiomes = {"hvuh","void","angel","bene"}# STILL NEED "cult","asta"
+rarebiomes = {"hvuh","void","angel","cult","bene","asta"}
 def finishfunc(key):
     data = {
         "content":"## PRESSED STOP KEY ("+(settings["keytopause"]).upper()+") STOPPING NOW",
