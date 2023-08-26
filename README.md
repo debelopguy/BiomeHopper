@@ -1,7 +1,9 @@
-# BiomeHopper
-super duper biome hopper 3000 😎😎😎
+# super duper biome hopper 3000 😎😎😎
+a macro for balanced craftwars overhaul that automatically rejoins your vip, skips unnecessary biomes and notifies of rare biomes!
+# BASIC REQUIREMENTS! (before you download)
+* MUST BE ON **WINDOWS** (other OSs are possible but require changing some code around)
+* MUST HAVE A **1600X900 RESOLUTION OPTION** (biome/boss detection)
 ## FYI this is not an exploit and is safe to use! none of the files try to inject into roblox and only imitate button presses like a macro would
-# Currently .exe releases (windows only), you can also get the source code and run it from there if you're on a different os.
 
 # read instructions before running main .exe or .py
 and have fun getting 🔥🔥🔥 biomes
