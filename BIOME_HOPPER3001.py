@@ -69,11 +69,12 @@ def unbreakablehumanspirit():
         #with open("tempscreen.png","rb") as fil:
             #scr = discord.file(fil)
         data = {
-        "content":"## Roblox loaded!",
+        "content":"## Roblox loaded! Resetting to fix camera.",
         #"file": scr
         }
         sendbywebhook(data)
         os.remove("tempscreen.png")
+        keyboard.press_and_release("esc, r, enter")
         #click once to focus in the window and then zoomout
         data = {
         "content":"* focusing into roblox.",
@@ -91,7 +92,7 @@ def unbreakablehumanspirit():
         "content":"* zoomed out.",
         }
         sendbywebhook(data)
-        time.sleep(1)
+        time.sleep(2)
         data = {
         "content":"* Waiting "+str(towait)+" seconds now.",
         }
