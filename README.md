@@ -1,5 +1,6 @@
 # super duper biome hopper 3000 😎😎😎
 a macro for balanced craftwars overhaul that automatically rejoins your vip, skips unnecessary biomes and notifies of rare biomes!
+(sometimes unable to detect biomes correctly, which will be fixed soon hopefully)
 # BASIC REQUIREMENTS! (before you download)
 * MUST BE ON **WINDOWS** (other OSs are possible but require changing some code around)
 * MUST HAVE A **1600X900 RESOLUTION OPTION** (biome/boss detection)
