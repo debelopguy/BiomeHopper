@@ -1,9 +1,19 @@
 {
 "webhook":"None",
+"userid":"0",
 "vip":"https://www.example.com",
+"pingeveryoneuponrare":false,
+
+"rarebiomes":{"pvc":0,"hvuh":0,"void":0,"angel":0,"cult":0,"bene":0,"asta":0},
+"skippablebiomes":{"blizzard":0,"flame":0,"forest":0,"irradiated":0,"moon":0,"star":0,"storm":0,"DIDNT_LOAD":0},
+"afkfarm":true,
+"slottoafkfarm":2,
+
 "waitbeforerejoin":60,
 "browsertoclose":"firefox",
 "whichslottoequip":1,
+"resetuponload":false,
+"screenshotstatusinterval":10,
 "keytopause":"p",
 "strugglemessage":"the struggle continues.",
 "struggleattachment":"https://www.davelabowitz.com/wp-content/uploads/Sisyphus-e1557869810488.jpg"

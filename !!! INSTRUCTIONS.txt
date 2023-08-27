@@ -1,15 +1,31 @@
-INSTRUCTIONS FOR BCWO MACRO
+INSTRUCTIONS FOR BIOME HOPPER
 
-before opening the main BIOME HOPPER 3000 file:
-1. SET YOUR RESOLUTION TO 1600x900, OR ELSE IT WONT FIND BIOMES PROPERLY!
-2. if your default browser saves tabs upon closing, set it in settings to not do that,
+before opening the main BIOME HOPPER 3001.exe:
+1. YOU MUST BE ON WINDOWS!
+2. SET YOUR RESOLUTION TO 1600x900, OR ELSE IT WONT FIND BIOMES PROPERLY!
+3. if your default browser saves tabs upon closing, set it in settings to not do that,
 because the macro will keep opening the vip link and may or may not eat your ram
-3. open settings.json. and read the following:
+4. open settings.json. and read the following:
 
 * webhook [RECOMMENDED]: set that as your webhook link. if kept as "None" there will be no
 webhook notifications.
 
+* userid [REQUIRED WITH WEBHOOK]: set that as your discord userid. the macro will use this
+to notify you of load timeouts and biomes if pingeveryoneuponrare is turned off.
+
 * vip [REQUIRED]: set that as your roblox vip server link. HAS TO BE FILLED IN OBVIOUSLY!!!
+
+* pingeveryoneuponrare: set that to true or false. if turned on, the macro will ping @ everyone
+once it finds a rare biome. useful if you're grinding in a server with friends
+
+* rarebiomes & skippablebiomes: lists of biomes the macro will deem rare or skippable. you
+can replace biomes as you deem necessary (like for example moving pvc into skippable)
+
+* afkfarm: set that to true or false. if this is turned on, the macro will continue farming
+the rare biome once found until it ends and will continue working as normal.
+
+* slottoafkfarm [REQUIRED WITH AFKFARM]: set that to 1-4, that'll be slot of the weapon your
+character will be using (m1, z,x,c) during the afk farm
 
 * waitbeforerejoin: set to a number between 20 and 120. lower or higher will
 default to 20/120. default is 60 and is recommended you keep it that way
@@ -22,6 +38,14 @@ manager, find the browser process and its name and insert it in here.
 will equip and use (m1, z,x,c) after zooming out. its recommended to not use ANY items
 that may obstruct the camera's view to locate the biome (e.g sunshine grimoire, tlitw etc)
 default is 1.
+
+* resetuponload: set that to true or false. if turned on, the macro will reset your
+character upon loading. sometimes roblox spawns you in with the incorrect camera angle,
+but it works just fine if you are using *your own* vip server
+
+* screenshotstatusinterval: set to a number between 5 and 30. during "status messages"
+after the interval has passed the macro will send an image of roblox, incase the macro
+fails to detect something
 
 * keytopause: set that to a key you'd like to press to stop the script manually before
 finding a rare biome. default is "p". stick to regular keys, otherwise it might break
