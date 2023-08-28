@@ -81,7 +81,7 @@ def unbreakablehumanspirit():
             "content":"## ⚠ Roblox took too long to load! <@"+settings["userid"]+"> Restarting.",
             }
             sendbywebhook(data)
-            return
+            continue
         screenshot = pyautogui.screenshot()
         screenshot.save("tempscreen.png")
         towait = mathclamp(settings["waitbeforerejoin"],20,120)
