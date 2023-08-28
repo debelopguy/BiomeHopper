@@ -125,7 +125,7 @@ def unbreakablehumanspirit():
             if finishall==True:
                 break
             currentscreen = pyautogui.screenshot()
-            keyboard.press_and_release(mathclamp(settings["whichslottoequip"]+1,2,10))#equip item
+            keyboard.press_and_release(str(settings["whichslottoequip"]))#equip item
             pyautogui.click(button="left",x=1600/2,y=900/2)
             keyboard.press_and_release('z, x, c')#incase its an item
             if i%15==0:#reset every 15s for alignment
@@ -187,7 +187,7 @@ def unbreakablehumanspirit():
                         break
                     time.sleep(1)
                     afktimeelapsed+=1
-                    keyboard.press_and_release(mathclamp(settings["slottoafkfarm"]+1,2,10))#equip item
+                    keyboard.press_and_release(str(settings["slottoafkfarm"]))#equip item
                     pyautogui.click(button="left",x=1600/2,y=900/2)
                     keyboard.press_and_release('z, x, c')#incase its an item
                     if afktimeelapsed%30==0:

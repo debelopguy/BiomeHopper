@@ -1,4 +1,4 @@
-requests
+discord_webhook
 numpy
 pyautogui
 opencv-python
