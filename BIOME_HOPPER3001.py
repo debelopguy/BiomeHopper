@@ -1,6 +1,6 @@
 #BIOME HOPPER 3000!!!!!
 
-import discord_webhook,webbrowser,json,pyautogui,time,datetime,subprocess,os,keyboard
+import discord_webhook,webbrowser,json,pyautogui,time,datetime,subprocess,os,keyboard,random
 from PIL import Image
 
 settings = None
@@ -103,7 +103,7 @@ def unbreakablehumanspirit():
         "content":"* focusing into roblox.",
         }
         sendbywebhook(data)
-        pyautogui.click(button="left",x=1600/2,y=900/2,clicks=15,interval=.1)
+        pyautogui.click(button="left",x=1600/2,y=(900/2)+random.randint(-5,5),clicks=15,interval=.1)
         time.sleep(2)
         #hold O for 2 seconds to zoom out
         for i in range(20):
@@ -126,7 +126,7 @@ def unbreakablehumanspirit():
                 break
             currentscreen = pyautogui.screenshot()
             keyboard.press_and_release(str(settings["whichslottoequip"]))#equip item
-            pyautogui.click(button="left",x=1600/2,y=900/2)
+            pyautogui.click(button="left",x=1600/2,y=(900/2)+random.randint(-5,5))
             keyboard.press_and_release('z, x, c')#incase its an item
             if i%15==0:#reset every 15s for alignment
                 keyboard.press_and_release("esc")
@@ -188,9 +188,9 @@ def unbreakablehumanspirit():
                     time.sleep(1)
                     afktimeelapsed+=1
                     keyboard.press_and_release(str(settings["slottoafkfarm"]))#equip item
-                    pyautogui.click(button="left",x=1600/2,y=900/2)
+                    pyautogui.click(button="left",x=1600/2,y=(900/2)+random.randint(-5,5))
                     keyboard.press_and_release('z, x, c')#incase its an item
-                    if afktimeelapsed%30==0:
+                    if afktimeelapsed%20==0:
                         keyboard.press_and_release("esc")
                         time.sleep(.5)
                         keyboard.press_and_release("r")

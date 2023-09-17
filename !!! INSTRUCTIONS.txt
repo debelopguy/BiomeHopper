@@ -2,7 +2,7 @@ INSTRUCTIONS FOR BIOME HOPPER
 
 before opening the main BIOME HOPPER 3001.exe:
 1. YOU MUST BE ON WINDOWS!
-2. SET YOUR RESOLUTION TO 1600x900, OR ELSE IT WONT FIND BIOMES PROPERLY!
+2. SET YOUR RESOLUTION TO 1600x900, ROBLOX GRAPHICS TO 10 AND FULLSCREEN ON, OR ELSE IT WONT FIND BIOMES PROPERLY!
 3. if your default browser saves tabs upon closing, set it in settings to not do that,
 because the macro will keep opening the vip link and may or may not eat your ram
 4. open settings.json. and read the following:
