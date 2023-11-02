@@ -10,3 +10,5 @@ if you are still skeptical and have some coding knowledge, you can look into the
 
 # read instructions before running main .exe or .py
 and have fun getting 🔥🔥🔥 biomes
+
+if you run into some issues or are unsure about something, join [this discord server](https://discord.gg/yQEqd5ThY3) so we can try to help you further!
